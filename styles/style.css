@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
+}
+.banner{
+  height: calc(150px + 5vw);
+  background: linear-gradient(to bottom right, #4575b4,#4575b4,#fc8d59,#fc8d59);
+  position: sticky;
+  overflow: visible;
+  padding-bottom: 5vw;
+  width: 100%;
+  box-sizing: unset;
+  border-radius: 15px;
+  font-size: 30px;
+}
+.banner:after {
+    content: "";
+    position: absolute;
+    left:56%;
+    top: 54%;
+    height: 44%;
+    width: 38.8%;
+    background-image: url(120-logo-blanco-ES.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    position: absolute;
+    left: calc(6.2vw + (3 * (10px + 5px)));
+    top: calc(10px + 1.3vw);
+    color: white;
+    width: 65%;
+    font-size: 2.3vw;
+}
+
+.banner h6 {
+    position: absolute;
+    left: calc(6.2vw + (3 * (10px + 5px)));
+    top: calc(7.4vw + 80px);
+    color: white;
+    opacity: 100%;
+    width: 60%;
+    font-size: 2.2vw;
+}
+
+.sep{
+  height: calc(250px + 5vw);
+  position: sticky;
+  box-sizing: unset;
+}
+
+@media (max-width: 480px) {
+
+.banner {
+    height: 70vw;
+  }
+.banner:after {
+    content: "";
+    position: absolute;
+    left:26%;
+    top: 70%;
+    height: 22%;
+    width: 70%;
+    background-image: url(120-logo-blanco-ES.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+  .banner h1{
+    top: 0.2vw;
+    left: calc(10vw + (3 * (10px + 5px)));
+    font-size: 22px;
+    width: 70%;
+
+  }
+
+  .banner h6 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    left: calc(10vw + (3 * (10px + 5px)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    top: calc(5vw + 150px);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    font-size: 22px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ .sep{
+  height: calc(50px + 70vw);
+  }
+}
+
+.banner-dot-grid {
+  position: absolute;
+  top: calc(20px + 3vw);
+  bottom: calc(20px + 3vw);
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 10px;
+  margin-left: 4vw;
+}
+
+.banner-dot-grid .opaque {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 60%;
+}
+
+.banner-dot-grid .full {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 100%;
+}
+/* header for all main subsections */
+
+h2 {
+  color: white;
+  background: linear-gradient(to right,#5277ac, #5277ac);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+
+.quarto-title {
+  color: white;
+  background: linear-gradient(to right,#5277ac, #5277ac);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
